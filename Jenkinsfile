@@ -1,6 +1,6 @@
 node{
  stage('Git Checkout'){
-	git 'https://github.com/prasadmoru/jenkins_docker.git 
+	git 'https://github.com/prasadmoru/jenkins_docker.git' 
  }
  stage('Maven Package'){
 	sh 'mvn clean package'
